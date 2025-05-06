@@ -12,7 +12,9 @@ return (
                 <h2>Empowering your future with courses</h2>
                 <p>Join CodeTech Learn for expert led-courses in programming, software, designing and accounting in a vibrant learning environment</p>
                 {/* <button class='explore-btn'>Explore</button> */}
-                <button class="explore-btn"><span>Explore</span></button>
+                <Link to='/courses'>
+                    <button class="explore-btn"><span>Explore</span></button>
+                </Link>
             </div>
         </div>
         <TopCourses />
